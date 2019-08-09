@@ -1,2 +1,4 @@
 知识点：
 1.react组件的生命周期
+2.componet和PureComponent
+3..env文件定义环境变量
