@@ -9,6 +9,8 @@ import P5 from './p5';
 import P51 from './p5-1';
 import P52 from './p5-2';
 import P6 from './p6';
+import P7 from './p7';
+import P8 from './p8';
 import NotFound from './p404';
  
 
@@ -24,6 +26,8 @@ const MainRoute = () => (
 		<Route path="/p5-1" component={P51} />
 		<Route path="/p5-2" component={P52} />
 		<Route path="/p6" component={P6} />
+		<Route path="/p7" component={P7} />
+		<Route path="/p8" component={P8} />
 		<Route component={NotFound}/>
 	  </Switch>
   </HashRouter>
