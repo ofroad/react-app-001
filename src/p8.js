@@ -1,5 +1,5 @@
 //父组件
-import React, { useState,useEffect,useReducer  } from 'react';
+import React, { useReducer  } from 'react';
 
 const initialState = {count: 0};
 
