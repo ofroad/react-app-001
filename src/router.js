@@ -18,6 +18,14 @@ import P12 from './p12';
 import P13 from './p13';
 import P14 from './p14';
 import P15 from './p15';
+import P16 from './p16';
+import P17 from './p17';
+import P18 from './p18';
+import P19 from './p19';
+import P20 from './p20';
+import P21 from './p21';
+import P22 from './p22';
+import P23 from './p23';
 import NotFound from './p404';
  
 
@@ -42,6 +50,14 @@ const MainRoute = () => (
 		<Route path="/p13" component={P13} />
 		<Route path="/p14" component={P14} />
 		<Route path="/p15" component={P15} />
+		<Route path="/p16" component={P16} />
+		<Route path="/p17" component={P17} />
+		<Route path="/p18" component={P18} />
+		<Route path="/p19" component={P19} />
+		<Route path="/p20" component={P20} />
+		<Route path="/p21" component={P21} />
+		<Route path="/p22" component={P22} />
+		<Route path="/p23" component={P23} />
 		<Route component={NotFound}/>
 	  </Switch>
   </HashRouter>
