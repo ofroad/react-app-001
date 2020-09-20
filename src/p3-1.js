@@ -7,7 +7,7 @@ class Child extends Component {
     console.log('p3 Child constructor');
     super(props);
     this.state={
-      count:10
+      zcount:10
     }
   }
 
@@ -22,7 +22,7 @@ class Child extends Component {
     console.log("prevState===",prevState);
     
     return {
-      count: nextProps.count * 2,
+      zcount: nextProps.count * 2,
     };
     
    //return null;

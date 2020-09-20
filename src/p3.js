@@ -7,7 +7,7 @@ class Father extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      count: 1
+      count: 2
     }
     this.handleClick = this.handleClick.bind(this);
   }
